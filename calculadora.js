@@ -84,11 +84,11 @@ while (opcao != 0) {
             }
             break;
         case 5:
-            numero = prompt("Digite um número como porcentagem: ");
+            numero = prompt("Digite a porcentagem: ");
             if (isNaN(Number(numero))) {
                 console.log("");
             } else {
-                numero2 = prompt("Digite o segundo número para saber quanto é $(numero) por cento do numero:");
+                numero2 = prompt(`Digite o segundo número para saber quanto é ${numero}% do número: `);
                 if (isNaN(Number(numero2))) {
                 console.log("Digite um NÚMERO");
                 } else {
